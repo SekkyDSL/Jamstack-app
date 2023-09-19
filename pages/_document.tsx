@@ -1,13 +1,23 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
-export default function Document() {
+const Index = () => {
   return (
-    <Html lang="en">
-      <Head />
+    <Html>
+      <Head>
+        <link href={
+          'https://fonts.goolgeapis.com/css2'+
+          '?family=Noto+Sans+JP:wght@400;500;700'+
+          '&display=swap'
+        }
+        rel="stylesheet"
+        />
+      </Head>
       <body>
         <Main />
         <NextScript />
       </body>
-    </Html>
-  )
-}
+    </Html>    
+  );
+};
+
+export default Index;
