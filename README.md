@@ -8,7 +8,7 @@ NOTION_DATABASE_ID="データベースのID"
 ```
 
 を設定する必要があります
-設定後，以下の公式ドキュメントに従ってビルド，デプロイが可能です．
+設定後，以下の公式ドキュメントに従ってビルド，デプロイが可能です．<br>
 また，SekkyDSL自身はすでに個人のトークンを発行し，Vercel利用してのデプロイは完了しています．
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
