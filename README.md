@@ -1,3 +1,15 @@
+## Jamstack-app
+NotionをCMSとしてページの内容を管理しながら，APIによってその内容を取得してNext.jsでWebサイドのフロントエンドを実装する基本的なJamstackアプリです．
+
+個人で使用する場合にはルートディレクトリに.env.localファイルを作成し，
+<code>
+NOTION_TOKEN="個人のNotion APIキー"
+NOTION_DATABASE_ID="データベースのID"
+</code>
+
+を設定する必要があります
+設定後，以下の公式ドキュメントに従ってビルド，デプロイが可能です．
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
